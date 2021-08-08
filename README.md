@@ -58,7 +58,7 @@ home으로 이동
 명령어 연속 입력 `touch test1; echo "okay~" >> test1; cat test1`
 
 ##### 파일 압축 관리
-파일 압축하기 `tar -cf name.tar a b c` `tar -zcf name.tar.gz a b c`
+파일 압축하기 `tar -cf name.tar a b c` `tar -zcf name.tar.gz a b c`  
 압축풀기 `tar -xvf name.tar`  `tar -zxvf name.tar.gz`  
    -f 파일 이름을 지정  
    -c 파일을 tar로 묶음  
