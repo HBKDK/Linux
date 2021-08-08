@@ -56,3 +56,16 @@ home으로 이동
 실행결과를 한화면씩 보기 `ls | less`  
 실행결과를 sort `cat test | sort -r`  
 명령어 연속 입력 `touch test1; echo "okay~" >> test1; cat test1`
+
+##### 파일 압축 관리
+파일 압축하기 `tar -cf name.tar a b c` `tar -zcf name.tar.gz a b c`
+압축풀기 `tar -xvf name.tar`  `tar -zxvf name.tar.gz`
+   -f 파일 이름을 지정  
+   -c 파일을 tar로 묶음  
+   -x tar 압축을 품  
+   -v 내용을 자세히 출력  
+   -z gzip으로 압축하거나 해제함  
+   -t 목록 출력  
+   -p 파일 권한을 저장  
+   -C 경로를 지정  
+
