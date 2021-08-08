@@ -35,3 +35,24 @@ home으로 이동
 파일 이동 / 이름 변경 `mv`  
 파일 삭제 `rm`  
 파일 복사 `cp`  
+
+##### 파일 찾기
+현재 디렉토리에서(/) 이름으로 파일 찾기 `find ./ -name file_name` 현재 디렉토리에서 file_name 파일 찾기  
+사이즈 옵션 `find . -name *.java -size +1c` 최소 1바이트 크기 이상 `*.java` 파일을 root 아래에서 찾기  
+파일 내부 보기 `cat`  
+문서 내부 text 검색 `grep "class" Hello.java`  
+파일 이름 목록화 검색 'ls Hello[12].java'  
+파일 비교(위치만) `cmp`  
+파일 비교(내용) `diff`  
+파일 형태 검색 `file`  
+
+##### 유용한 명령어
+화면 지우기 `clear`  
+이전 명령어 보기 `history`  
+이전 명령어 실행 `!번호`  
+결과를 파일로 저장 `history > test.txt` history 명령어 결과를 test.txt로 저장   
+결과를 파일에 추가하기 `echo "hello" >> test` hello를 test에 추가  
+실행결과를 명령어 입력으로 받기 `cat test | grep He` test 파일 출력을 He를 찾는다.  
+실행결과를 한화면씩 보기 `ls | less`  
+실행결과를 sort `cat test | sort -r`  
+명령어 연속 입력 `touch test1; echo "okay~" >> test1; cat test1`
