@@ -69,3 +69,6 @@ home으로 이동
    -p 파일 권한을 저장  
    -C 경로를 지정  
 
+##### 링크
+Hard link file `ln Original_FileName Link_FileName`  
+Symbolic link file `ln -s 실행파일 바로가기`  
