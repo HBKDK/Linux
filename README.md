@@ -72,3 +72,11 @@ home으로 이동
 ##### 링크
 Hard link file `ln Original_FileName Link_FileName`  
 Symbolic link file `ln -s 실행파일 바로가기`  
+환경변수 `$PATH`  
+
+##### 사용차 추가/편집/삭제
+사용자 추가 `useradd`
+사용자 변경 `usermod`
+사용자 삭제 `userdel`
+사용자 확인 `cat etc/passwd`
+사용자 패스워드 `sudo passwd 사용자이름`
