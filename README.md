@@ -79,4 +79,7 @@ Symbolic link file `ln -s 실행파일 바로가기`
 사용자 변경 `usermod`  
 사용자 삭제 `userdel`  
 사용자 확인 `cat etc/passwd`  
-사용자 패스워드 `sudo passwd 사용자이름`
+사용자 패스워드 `sudo passwd 사용자이름`  
+
+##### 디렉토리 소유권 변경  
+디렉토리 소유권 변경 `sudo chown user_name:group_name dir`  
