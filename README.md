@@ -82,4 +82,10 @@ Symbolic link file `ln -s 실행파일 바로가기`
 사용자 패스워드 `sudo passwd 사용자이름`  
 
 ##### 디렉토리 소유권 변경  
-디렉토리 소유권 변경 `sudo chown user_name:group_name dir`  
+디렉토리 소유권 변경 `sudo chown user_name:group_name dir` 
+
+##### 파일 권한 변경
+`chmod 644 test.txt` 소유자 소유그룹 일반유저의 rwx를 각각 2진수로 표현  
+`chmod ugo+rw test.txt` 소유자, 그룹, 일반유저에 rw 추가  
+`chmod a-wx test.txt` 모든 유저에 wx 권한 삭제   
+
