@@ -78,8 +78,12 @@ Symbolic link file `ln -s 실행파일 바로가기`
 사용자 추가 `useradd`  
 사용자 변경 `usermod`  
 사용자 삭제 `userdel`  
+   - -r 옵션 : home 디렉토리 삭제
+   - -f 옵션 : 오류 무시하고 삭제
 사용자 확인 `cat etc/passwd`  
 사용자 패스워드 `sudo passwd 사용자이름`  
+향상된 사용자 추가 명령어 `adduser user_name`  
+패스워드추가 `passwd user_name`  
 
 ##### 디렉토리 소유권 변경  
 디렉토리 소유권 변경 `sudo chown user_name:group_name dir` 
@@ -89,3 +93,14 @@ Symbolic link file `ln -s 실행파일 바로가기`
 `chmod ugo+rw test.txt` 소유자, 그룹, 일반유저에 rw 추가  
 `chmod a-wx test.txt` 모든 유저에 wx 권한 삭제   
 
+##### 파일 찾기
+파일 위치 `whereis file_name`  
+실행되는 파일 `which file_name`  
+
+##### 프롬프트 변경하기
+프롬프트 스트링 확인하기 `echo $PS1`  
+프롬프트 스트링 변경하기 : 옵션은 검색  
+```
+PS1="$";
+$
+```
