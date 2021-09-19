@@ -108,3 +108,8 @@ $
 ##### 명령어 별칭 (alias)
 별칭보기 `type 명령어`  
 별칭만들기 `alias ls='ls -l'`   
+
+##### APT
+패키지 찾기 `apt-cache search pkgnames | grep jdk`  
+PPA 추가(lunchpad) `sudo add-apt-repository ppaLopenjdk-r/ppa`  
+
