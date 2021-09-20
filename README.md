@@ -123,4 +123,8 @@ java버전 `update-java-alternatives option`
 telnet 설치 확인 `dpkg -s telnetd`  
 telnet 설치 `sudo apt-get install telnetd`  
 
+##### SSH
+서버목록보기 `service --status-all`  
+ssh 자세히보기 `service ssh status`  
+putty(client)
 
