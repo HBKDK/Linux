@@ -113,3 +113,14 @@ $
 패키지 찾기 `apt-cache search pkgnames | grep jdk`  
 PPA 추가(lunchpad) `sudo add-apt-repository ppaLopenjdk-r/ppa`  
 
+##### 링크관리도구
+링크변경 `update-alternatives --config editor`  
+링크등록 `update-alternatives --install ~/bin/bb bb ~/test1.sh 1`  
+사용중인목록보기 `update-alternative --all`  
+java버전 `update-java-alternatives option`  
+
+##### Telnet
+telnet 설치 확인 `dpkg -s telnetd`  
+telnet 설치 `sudo apt-get install telnetd`  
+
+
