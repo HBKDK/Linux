@@ -128,3 +128,11 @@ telnet 설치 `sudo apt-get install telnetd`
 ssh 자세히보기 `service ssh status`  
 putty(client)
 
+##### FTP
+Very Secure FTP Daemon 설치 `sudo apt-get install vsftpd`  
+clinent 연결 ` ftp ip_address`  
+
+##### 외부장치 마운트
+마운트 `mount /dev/sdb1 /media/usb`  
+언마운트 `umount /media/usb`  
+
